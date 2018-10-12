@@ -163,7 +163,7 @@ function myMainFunction() {
 			replyTweet();
 			console.log('replied!' + '\n');
 		} else {
-			console.log('already popular');
+			console.log('already popular' + '\n');
 		}
 	}
 }
