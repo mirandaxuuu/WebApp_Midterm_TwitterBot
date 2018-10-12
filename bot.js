@@ -157,11 +157,13 @@ function myMainFunction() {
 		}
 
 
-		if (total_likes < 10000000) {
+		if (total_likes < 100) {
 			retweetPost();
 			console.log('retweeted!')
 			replyTweet();
 			console.log('replied!' + '\n');
+		} else {
+			console.log('already popular');
 		}
 	}
 }
